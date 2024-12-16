@@ -53,7 +53,7 @@ function findAndClickSkipButton() {
                 });
 
                 targetDiv.dispatchEvent(clickEvent);
-                console.log(`Clicked at position (${clickX.toFixed(2)}, ${clickY.toFixed(2)})`);
+                console.log(Clicked at position (${clickX.toFixed(2)}, ${clickY.toFixed(2)}));
             }
 
             if (Date.now() - startTime >= 1 * 60 * 1000) {
